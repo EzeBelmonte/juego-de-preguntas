@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fondo {
+    background: rgb(0, 48, 92);
+}
+
+main {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+/* ============================== TABLERO */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: rgb(3, 119, 148);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 1px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.casilla {
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 235, 161);
+    font-weight: bold;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.casilla-curva-sup-der {
+    border-top-right-radius: 50%;
+}
+
+.casilla-curva-inf-der {
+    border-bottom-right-radius: 50%;
+}
+
+.casilla-curva-inf-izq {
+    border-bottom-left-radius: 50%;
+}
+
+.casilla-curva-sup-izq {
+    border-top-left-radius: 50%;
+}
+
+/* Casillas especiales */
+.inicio {
+    background-color: #97eb97;
+}
+
+.final {
+    background-color: #ec7d7d;
+}
+
+
+/* ============================== FICHAS */
+.ficha {
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+  border: 2px solid black;
+  position: absolute;
+  left: 20px;
+  transition: top 0.3s ease, left 0.3s ease;
+  z-index: 10;
+}
+.ficha.jugador0 {
+    top: 10px;
+    background-color: rgb(241, 133, 32);
+}
+.ficha.jugador1 {
+    bottom: 10px;
+    background-color: rgb(30, 132, 228);
+}
+
+
+/* ============================== JUGADORES */
+.jugador-card {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+#jugador1 {
+    top: 10px;
+    left: 10px;
+}
+#jugador2 {
+    top: 10px;
+    right: 10px;
+}
+
+.jugador-n,
+.jugador-p {
+    padding: 5px 8px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    line-height: 1;
+}
+#card-1 {
+    background: rgb(241, 133, 32);
+}
+#card-2 {
+    background: rgb(30, 132, 228);
+}
+.jugador-n {
+    font-weight: 500;
+    color: whitesmoke;
+}
+.jugador-p {
+    background: white;
+    font-weight: 700;
+}
+
+
+/* ============================== PREGUNTAS */
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 35%;
+    height: 400px;
+    background: rgb(62, 131, 148);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.pregunta-title {
+    color: white;
+    font-weight: 500;
+}
+
+.consigna {
+    background: aliceblue;
+    color: black;
+    margin-top: 15px;
+    padding: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.btn-opcion {
+    width: 100%;
+    background: rgb(0, 128, 167);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 4px 6px;
+    cursor: pointer;
+    text-align: left;
+}
+.btn-opcion:hover {
+    background: rgb(0, 89, 116);
+}
+.btn-opcion.desactivado {
+    cursor: default !important;
+    opacity: 0.8;
+    /* se deshabilita el clic*/
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.temporizador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+.tiempo-default {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#seg, #mile {
+    display: inline-flex;
+    min-width: 2.4ch;
+    text-align: center;
+}
+
+.tiempo-title {
+    font-size: .9rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+
+.tiempo-reloj {
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+/* ============================== POPUP */
+.popup {
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.popup-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;/*500px;*/
+    height: 40vh;
+    text-align: center;
+}
+
+.ganador {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: green;
+}
+
+.puntos {
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: red;
+}
+
+.puntos-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-reiniciar {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: auto;
+    padding: 5px 8px;
+    background: rgb(6, 146, 76);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-reiniciar:hover {
+    background: rgb(3, 97, 50);
+}

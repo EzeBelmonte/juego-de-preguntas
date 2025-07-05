@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fondo {
+    background: rgb(7, 81, 150);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.sala-espera {
+  background: aliceblue;
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+  border-radius: 10px;
+}
+
+.btn-comenzar {
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  background: rgb(0, 128, 167);
+  color: aliceblue;
+  cursor: pointer;
+}
+.btn-comenzar:hover {
+  background: rgb(0, 87, 114);
+}
+.btn-comenzar:disabled {
+  background: rgba(0, 87, 114, 0.5);
+  cursor: default;
+}

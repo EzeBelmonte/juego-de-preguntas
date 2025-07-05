@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="/css/juego.css">
+    <link rel="stylesheet" href="/css/dado.css">
+    
+    <title>Jugando</title>
+</head>
+<body class="fondo">
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <div class="jugador-card" id="jugador1"></div>
+                <div class="jugador-card" id="jugador2"></div>
+                
+                <div class="tablero" id="tablero"></div>
+
+                <div class="escena">
+                    <div class="dado" id="dado">
+                        <div class="cara cara1">1</div>
+                        <div class="cara cara2">2</div>
+                        <div class="cara cara3">3</div>
+                        <div class="cara cara4">4</div>
+                        <div class="cara cara5">5</div>
+                        <div class="cara cara6">6</div>
+                    </div>
+
+                    <button id="btn-dado" class="btn-dado" onclick="girarDado()">Lanzar</button>
+                </div>
+
+                <!--<div class="abandonar">
+                    <button class="btn-abandonar">Abandonar</button>
+                </div>-->
+            </div>
+
+            <div id="preguntas" class="preguntas">
+                <h2 class="pregunta-title">Pregunta:</h2>
+
+                <div id="pregunta"></div>
+
+                <div id="temporizador" class="temporizador"><p class="tiempo-default">Tiempo</p></div>
+            </div>
+        </div>
+
+        <div id="popup" class="popup"></div>
+    </main>
+
+    <!-- ================ ZONA SCRIPTS -->
+    <!-- Script de Socket.IO (importante que vaya primero) -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- lógica del juego -->
+    <script src="/js/juego.js"></script>
+    <!-- efecto del confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>

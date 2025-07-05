@@ -1,0 +1,67 @@
+
+.escena {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 50px;
+  height: 110px;
+  perspective: 600px;
+
+  display: flex;
+  flex-direction: column;      /* uno arriba del otro */
+  align-items: center;         /* centrado horizontal */
+  justify-content: center;     /* centrado vertical */
+  gap: 4px;    
+}
+
+.dado {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: transform 1s ease, top 0.5s ease;
+  top: 0;
+}
+
+.cara {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid #252525;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Posición de las caras */
+.cara1 { transform: rotateY(0deg) translateZ(25px); }
+.cara2 { transform: rotateY(180deg) translateZ(25px); }
+.cara3 { transform: rotateY(90deg) translateZ(25px); }
+.cara4 { transform: rotateY(-90deg) translateZ(25px); }
+.cara5 { transform: rotateX(90deg) translateZ(25px); }
+.cara6 { transform: rotateX(-90deg) translateZ(25px); }
+
+.btn-dado {
+  background: rgb(1, 182, 25);
+  color: rgb(228, 228, 228);
+  font-size: .9rem;
+  font-weight: 700;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.btn-dado:hover {
+  background: rgb(5, 133, 22);
+}
+.btn-dado:disabled {
+  cursor: default;
+  background: rgba(5, 133, 22, 0.7);
+}

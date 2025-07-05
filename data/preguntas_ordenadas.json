@@ -1,0 +1,871 @@
+[
+  {
+    "question": "¿Cuál es la unidad de medida del trabajo en el sistema internacional?",
+    "options": ["Newton", "Joule", "Watt"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué ley explica por qué un objeto en reposo tiende a permanecer en reposo?",
+    "options": ["Ley de la inercia", "Ley de acción y reacción", "Ley de gravitación universal"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué magnitud se obtiene al derivar la posición respecto al tiempo?",
+    "options": ["Aceleración", "Velocidad", "Fuerza"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué ocurre con la energía mecánica en un sistema sin fricción?",
+    "options": ["Se conserva", "Disminuye", "Aumenta"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de onda es el sonido?",
+    "options": ["Electromagnética", "Longitudinal", "Transversal"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué propiedad física cambia al pasar de sólido a líquido?",
+    "options": ["Temperatura", "Estado", "Color"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué fenómeno explica la formación del arco iris?",
+    "options": ["Reflexión", "Difracción", "Refracción"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué instrumento se utiliza para medir presión atmosférica?",
+    "options": ["Barómetro", "Termómetro", "Anemómetro"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué ocurre con un objeto que experimenta fuerza neta cero?",
+    "options": ["Se acelera", "Está en equilibrio", "Se detiene"],
+    "correct": 1,
+    "available": true
+  },
+
+  {
+    "question": "¿Qué tipo de enlace une a los átomos en una molécula de agua?",
+    "options": ["Covalente", "Iónico", "Metálico"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el número atómico del carbono?",
+    "options": ["6", "12", "14"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué pH indica una solución básica?",
+    "options": ["Menor a 7", "Igual a 7", "Mayor a 7"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué gas se libera en una reacción de ácido con metal?",
+    "options": ["Oxígeno", "Hidrógeno", "Nitrógeno"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué proceso separa mezclas aprovechando diferentes puntos de ebullición?",
+    "options": ["Filtración", "Decantación", "Destilación"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué partícula subatómica tiene carga negativa?",
+    "options": ["Protón", "Electrón", "Neutrón"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué es un mol en química?",
+    "options": ["Una unidad de masa", "Una cantidad de partículas", "Una concentración"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué elemento es esencial en los compuestos orgánicos?",
+    "options": ["Oxígeno", "Carbono", "Hierro"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de reacción ocurre cuando se libera calor?",
+    "options": ["Endotérmica", "Exotérmica", "Neutral"],
+    "correct": 1,
+    "available": true
+  },
+
+  {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Amazonas", "Nilo", "Yangtsé"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué cordillera recorre América del Sur de norte a sur?",
+    "options": ["Alpes", "Andes", "Rocosas"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué país tiene la mayor población del mundo?",
+    "options": ["India", "China", "Estados Unidos"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué océano está entre América y Europa?",
+    "options": ["Índico", "Pacífico", "Atlántico"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿En qué continente se encuentra el desierto del Sahara?",
+    "options": ["Asia", "África", "Oceanía"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es la capital de Canadá?",
+    "options": ["Toronto", "Montreal", "Ottawa"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué línea divide la Tierra en hemisferio norte y sur?",
+    "options": ["Ecuador", "Trópico de Cáncer", "Meridiano de Greenwich"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué país tiene forma de bota?",
+    "options": ["España", "Italia", "Portugal"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué cordillera separa Europa de Asia?",
+    "options": ["Andes", "Alpes", "Urales"],
+    "correct": 2,
+    "available": true
+  },
+
+  {
+    "question": "¿Qué planeta del sistema solar tiene más lunas?",
+    "options": ["Júpiter", "Saturno", "Urano"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de cuerpo celeste es el Sol?",
+    "options": ["Planeta", "Estrella", "Asteroide"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué planeta tiene un día más largo que su año?",
+    "options": ["Mercurio", "Venus", "Marte"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué es una supernova?",
+    "options": ["Un nuevo planeta", "Una explosión estelar", "Un agujero negro"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué planeta tiene un sistema de anillos muy visible?",
+    "options": ["Neptuno", "Saturno", "Júpiter"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cómo se llama nuestro satélite natural?",
+    "options": ["Europa", "Luna", "Ío"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué planeta es el más cercano al Sol?",
+    "options": ["Venus", "Mercurio", "Marte"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué telescopio se encuentra en órbita desde 1990?",
+    "options": ["Kepler", "Hubble", "James Webb"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cómo se llama el punto más cercano al Sol en una órbita?",
+    "options": ["Perihelio", "Apogeo", "Perigeo"],
+    "correct": 0,
+    "available": true
+  },
+
+  {
+    "question": "¿Qué animal pone huevos pero es un mamífero?",
+    "options": ["Murciélago", "Ornitorrinco", "Zorro volador"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué estructura permite el vuelo en aves?",
+    "options": ["Patas traseras", "Alas", "Plumas"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el animal terrestre más rápido?",
+    "options": ["León", "Tigre", "Guepardo"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué órgano utilizan los peces para respirar?",
+    "options": ["Pulmones", "Branquias", "Tráqueas"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el grupo más numeroso del reino animal?",
+    "options": ["Moluscos", "Insectos", "Aves"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de animal es un anélido?",
+    "options": ["Lombriz de tierra", "Camarón", "Sapo"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué animal tiene el cerebro más grande en relación a su cuerpo?",
+    "options": ["Humano", "Pulpo", "Delfín"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué animales pueden regenerar sus extremidades?",
+    "options": ["Cangrejos", "Estrellas de mar", "Tiburones"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de vertebrado es una rana?",
+    "options": ["Reptil", "Anfibio", "Pez"],
+    "correct": 1,
+    "available": true
+  },
+
+  {
+    "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "options": ["1914", "1918", "1939"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Quién fue el primer emperador romano?",
+    "options": ["Julio César", "Nerón", "Augusto"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué civilización construyó Machu Picchu?",
+    "options": ["Azteca", "Maya", "Inca"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Quién lideró la independencia de Argentina?",
+    "options": ["Simón Bolívar", "José de San Martín", "Bernardo O'Higgins"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué revolución inició en 1789?",
+    "options": ["Industrial", "Francesa", "Rusa"],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿En qué país comenzó la Segunda Guerra Mundial?",
+    "options": ["Francia", "Reino Unido", "Alemania"],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Quién fue el último faraón de Egipto?",
+    "options": ["Cleopatra", "Ramsés II", "Tutankamón"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué muro cayó en 1989?",
+    "options": ["Muro de Berlín", "Muro de Adriano", "Muro de los Lamentos"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Quién descubrió América en 1492?",
+    "options": ["Cristóbal Colón", "Vasco da Gama", "Américo Vespucio"],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué es una disolución saturada?",
+    "options": [
+      "No puede disolver más soluto",
+      "Tiene poco soluto",
+      "Es muy ácida"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de energía tiene un objeto en movimiento?",
+    "options": [
+      "Cinética",
+      "Potencial",
+      "Eléctrica"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es la fórmula del metano?",
+    "options": [
+      "CH3OH",
+      "CH4",
+      "C2H6"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué pasa con la presión si se reduce el volumen de un gas?",
+    "options": [
+      "Aumenta",
+      "Disminuye",
+      "Permanece constante"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué animal tiene la mordida más poderosa?",
+    "options": [
+      "León",
+      "Cocodrilo",
+      "Hipopótamo"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de animal es una medusa?",
+    "options": [
+      "Pez",
+      "Molusco",
+      "Cnidario"
+    ],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué propiedad tiene el agua como disolvente?",
+    "options": [
+      "No polar",
+      "Altamente polar",
+      "Neutra"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué pasa en una reacción endotérmica?",
+    "options": [
+      "Libera calor",
+      "Absorbe calor",
+      "No cambia energía"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Quién fue Simón Bolívar?",
+    "options": [
+      "Poeta español",
+      "Líder militar de la independencia sudamericana",
+      "Presidente de México"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué país limita con más naciones?",
+    "options": [
+      "Alemania",
+      "China",
+      "Rusia"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué país está formado por más de 17.000 islas?",
+    "options": [
+      "Filipinas",
+      "Indonesia",
+      "Maldivas"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué galaxia es vecina a la Vía Láctea?",
+    "options": [
+      "Andrómeda",
+      "Sagitario",
+      "Orión"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué animal puede regenerar su cola rápidamente?",
+    "options": [
+      "Lagartija",
+      "Gato",
+      "Conejo"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿En qué siglo ocurrió la Revolución Industrial?",
+    "options": [
+      "XVIII",
+      "XIX",
+      "XX"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué imperio cayó en 476 d.C.?",
+    "options": [
+      "Imperio Bizantino",
+      "Imperio Romano de Occidente",
+      "Imperio Otomano"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué país europeo tiene más volcanes activos?",
+    "options": [
+      "Italia",
+      "España",
+      "Grecia"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué es la electrólisis?",
+    "options": [
+      "Disolución de sales",
+      "Separación por electricidad",
+      "Reacción redox"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué gas es esencial para la combustión?",
+    "options": [
+      "Dióxido de carbono",
+      "Oxígeno",
+      "Hidrógeno"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué evento inició la Segunda Guerra Mundial?",
+    "options": [
+      "Invasión a Polonia",
+      "Pearl Harbor",
+      "Ataque a Francia"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el principio de Arquímedes?",
+    "options": [
+      "Empuje igual al peso del volumen desplazado",
+      "Ley de la palanca",
+      "Principio de Pascal"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué instrumento capta ondas de radio del espacio?",
+    "options": [
+      "Telescopio óptico",
+      "Radiotelescopio",
+      "Espectroscopio"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Quién fue el primer presidente de EE. UU.?",
+    "options": [
+      "Abraham Lincoln",
+      "George Washington",
+      "Thomas Jefferson"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el animal más grande que ha existido?",
+    "options": [
+      "Dinosaurio",
+      "Ballena azul",
+      "Elefante africano"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué instrumento se usa para medir fuerza?",
+    "options": [
+      "Dinámetro",
+      "Newtonmetro",
+      "Multímetro"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué civilización construyó las pirámides de Egipto?",
+    "options": [
+      "Babilónica",
+      "Egipcia",
+      "Mesopotámica"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cuál de estos animales es hermafrodita?",
+    "options": [
+      "Caracol",
+      "Perro",
+      "Águila"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Quién escribió el 'Contrato Social'?",
+    "options": [
+      "Rousseau",
+      "Voltaire",
+      "Hobbes"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué compuesto da sabor salado al agua de mar?",
+    "options": [
+      "Sulfato de calcio",
+      "Cloruro de sodio",
+      "Nitrato de potasio"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué ley explica la relación entre fuerza, masa y aceleración?",
+    "options": [
+      "Primera ley de Newton",
+      "Segunda ley de Newton",
+      "Tercera ley de Newton"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es la capital de Sudáfrica?",
+    "options": [
+      "Pretoria",
+      "Ciudad del Cabo",
+      "Ambas"
+    ],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué función tiene el exoesqueleto?",
+    "options": [
+      "Reproducción",
+      "Respiración",
+      "Protección"
+    ],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de energía se transfiere por conducción?",
+    "options": [
+      "Energía térmica",
+      "Energía cinética",
+      "Energía potencial"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué fase lunar permite un eclipse solar?",
+    "options": [
+      "Luna llena",
+      "Luna nueva",
+      "Cuarto creciente"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué órgano tienen algunos peces para flotar?",
+    "options": [
+      "Branquias",
+      "Vejiga natatoria",
+      "Hígado"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el planeta más denso del sistema solar?",
+    "options": [
+      "Tierra",
+      "Saturno",
+      "Urano"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué país usó la bomba atómica en 1945?",
+    "options": [
+      "Alemania",
+      "Japón",
+      "Estados Unidos"
+    ],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de espejo forma imágenes reales e invertidas?",
+    "options": [
+      "Plano",
+      "Cóncavo",
+      "Convexo"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Cómo se llama la parte oscura de una sombra planetaria?",
+    "options": [
+      "Umbra",
+      "Penumbra",
+      "Corona"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué mar se encuentra entre Europa y África?",
+    "options": [
+      "Mar Rojo",
+      "Mar Mediterráneo",
+      "Mar Caspio"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué planeta tiene estaciones como la Tierra?",
+    "options": [
+      "Mercurio",
+      "Marte",
+      "Júpiter"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué tipo de sustancia es el HCl?",
+    "options": [
+      "Base fuerte",
+      "Ácido fuerte",
+      "Sal neutra"
+    ],
+    "correct": 1,
+    "available": true
+  },
+  {
+    "question": "¿Qué es la frecuencia de una onda?",
+    "options": [
+      "Número de oscilaciones por segundo",
+      "Altura de la onda",
+      "Longitud de onda"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué zona horaria sigue Argentina?",
+    "options": [
+      "GMT-3",
+      "GMT-4",
+      "GMT-2"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué sustancia se usa para identificar almidón?",
+    "options": [
+      "Yodo",
+      "Cloro",
+      "Nitrato"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+    "options": [
+      "Versalles",
+      "Tordesillas",
+      "Guadalupe Hidalgo"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué nombre recibe un grupo de estrellas con forma reconocible?",
+    "options": [
+      "Constelación",
+      "Cúmulo",
+      "Nebulosa"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué planeta rota en sentido horario?",
+    "options": [
+      "Venus",
+      "Marte",
+      "Urano"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué unidad se utiliza para medir la resistencia eléctrica?",
+    "options": [
+      "Voltio",
+      "Amperio",
+      "Ohmio"
+    ],
+    "correct": 2,
+    "available": true
+  },
+  {
+    "question": "¿Qué es un exoplaneta?",
+    "options": [
+      "Planeta fuera del sistema solar",
+      "Planeta en formación",
+      "Planeta sin órbita"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué animal cambia de color según su entorno?",
+    "options": [
+      "Camaleón",
+      "Pulpo",
+      "Salamandra"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el continente con más países?",
+    "options": [
+      "África",
+      "Asia",
+      "Europa"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Cuál es el único mamífero que vuela?",
+    "options": [
+      "Murciélago",
+      "Ornitorrinco",
+      "Puercoespín"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Qué país no tiene salida al mar?",
+    "options": [
+      "Paraguay",
+      "Colombia",
+      "Tailandia"
+    ],
+    "correct": 0,
+    "available": true
+  },
+  {
+    "question": "¿Dónde se encuentra el Everest?",
+    "options": [
+      "Nepal",
+      "India",
+      "China"
+    ],
+    "correct": 0,
+    "available": true
+  }
+]
