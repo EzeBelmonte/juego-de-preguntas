@@ -17,4 +17,4 @@ Juego de preguntas hecho con HTML + CSS, Javascript, implementando socket.io y e
 
 - GitHub: [@eze-belmonte](https://github.com/eze-belmonte)
 - Instagram: [@eze.belmonte](https://instagram.com/eze.belmonte)
-- LinkedIn: [Belmonte Ezequiel](https://linkedin.com/in/ezequiel-belmonte-5863922b5)
+- LinkedIn: [Belmonte Ezequiel](https://linkedin.com/in/ezequiel-belmonte)
