@@ -105,26 +105,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const tablero = document.getElementById("tablero");
         tablero.appendChild(ficha);
 
-        console.log(posicion);
+        // se ve en que casilla debe aparecer la ficha. (Se tiene en cuenta en el caso de una re-conexión)
+        const lugarCasilla = posicion === 0
+        ? document.getElementById("casilla-inicio")
+        : document.getElementById(`casilla-${posicion}`);
+
         // se obtiene las posiciones absolutas de la casilla y el tablero
-        let lugarCasilla;
-        if (posicion === 0) {
-            lugarCasilla = document.getElementById("casilla-inicio");
-        } else {
-            lugarCasilla = document.getElementById(`casilla-${posicion}`);
-        }
         const casillaRect = lugarCasilla.getBoundingClientRect();
         const tableroRect = tablero.getBoundingClientRect();
 
         // se calcula la posición horizontal relativa de la ficha dentro del tablero y se le suma el desplazamiento (20)
-        ficha.style.left = (casillaRect.left - tableroRect.left + 20) + "px";
-
+        const offsetLeft = casillaRect.left - tableroRect.left + 20;
+        ficha.style.left = `${offsetLeft}px`;
+        
         // se guarda la posición vertical de cada ficha para que no se superpongan
-        if (jugador.nro === 0) {
-            ficha.style.top = (casillaRect.top - tableroRect.top + 10) + "px";
-        } else {
-            ficha.style.bottom = (tableroRect.bottom - casillaRect.bottom + 10) + "px";
-        }
+        const baseTop = casillaRect.top - tableroRect.top;
+        // depende de que jugador, es la posición vertical que va a recibir
+        const extra = jugador.nro === 0 ? 10 : 30;
+        ficha.style.top = `${baseTop + extra}px`;
     }
 
 
@@ -192,18 +190,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const offsetLeft = casillaRect.left - tableroRect.left + 20;
                 ficha.style.left = `${offsetLeft}px`;
 
-                // depende del jugador, se posiciona la ficha
-                if (jugador.nro === 0) {
-                    // para jugador 0 que usa top
-                    const offsetTop = casillaRect.top - tableroRect.top + 10;
-                    ficha.style.top = `${offsetTop}px`;
-                    ficha.style.bottom = "";
-                } else if (jugador.nro === 1) {
-                    // para jugador 1 que usa bottom
-                    const offsetBottom = tableroRect.bottom - casillaRect.bottom + 10;
-                    ficha.style.bottom = `${offsetBottom}px`;
-                    ficha.style.top = "";
-                }
+                const baseTop = casillaRect.top - tableroRect.top;
+                // separa las fichas para que no se superponga
+                const extra   = jugador.nro === 0 ? 10 : 30;
+                    ficha.style.top    = `${baseTop + extra}px`;
+                    ficha.style.bottom = "";        
             }
 
             // siguiente paso

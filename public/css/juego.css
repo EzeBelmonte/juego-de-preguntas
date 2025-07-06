@@ -91,21 +91,20 @@ main {
 
 /* ============================== FICHAS */
 .ficha {
-  width: 13px;
-  height: 13px;
+  width: 17px;
+  height: 17px;
   border-radius: 7px;
   border: 2px solid black;
   position: absolute;
   left: 20px;
   transition: top 0.3s ease, left 0.3s ease;
   z-index: 10;
+  box-sizing: border-box;
 }
 .ficha.jugador0 {
-    top: 10px;
     background-color: rgb(241, 133, 32);
 }
 .ficha.jugador1 {
-    bottom: 10px;
     background-color: rgb(30, 132, 228);
 }
 
