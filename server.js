@@ -32,7 +32,8 @@ app.use("/", routes);
 socketSetup(io);   // Eventos del lobby
 gameManager(io);   // Eventos del juego
 
-const PORT = 3000;
+//const PORT = 3000;
+const PORT = process.env.PORT || 3000; // Para poder usar Render
 server.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
