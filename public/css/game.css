@@ -23,6 +23,32 @@ main {
     box-sizing: border-box;
 }
 
+.disabledDado {
+    /* Desactiva las interacciones */
+    pointer-events: none;  
+    opacity: 0.5; 
+}
+
+.round-btn-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.round-btn {
+    background: rgb(11, 154, 225);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.round-btn:hover {
+    background: rgb(7, 118, 173)
+}
 
 /* ============================== TABLERO */
 .content {

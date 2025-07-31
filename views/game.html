@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <link rel="stylesheet" href="/css/juego.css">
+    <link rel="stylesheet" href="/css/game.css">
     <link rel="stylesheet" href="/css/dado.css">
-    
+    <link rel="icon" href="/img/logo/logo.png" type="image/png">
+
     <title>Jugando</title>
 </head>
 <body class="fondo">
@@ -29,12 +30,8 @@
                         <div class="cara cara6">6</div>
                     </div>
 
-                    <button id="btn-dado" class="btn-dado" onclick="girarDado()">Lanzar</button>
+                    <button id="btn-dado" class="btn-dado">Lanzar</button>
                 </div>
-
-                <!--<div class="abandonar">
-                    <button class="btn-abandonar">Abandonar</button>
-                </div>-->
             </div>
 
             <div id="preguntas" class="preguntas">
@@ -53,7 +50,8 @@
     <!-- Script de Socket.IO (importante que vaya primero) -->
     <script src="/socket.io/socket.io.js"></script>
     <!-- lógica del juego -->
-    <script src="/js/juego.js"></script>
+    <script type="module" src="/js/game.js"></script>
+
     <!-- efecto del confetti -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 

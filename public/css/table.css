@@ -1,0 +1,36 @@
+
+.table-container {
+    position: relative;
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    background: rgb(7, 109, 7);
+    border-radius: 50%;
+    border: 10px solid rgb(165, 77, 42);
+}
+
+.player {
+    position: absolute;
+    text-align: center;
+    color: wheat;
+    font-weight: bold;
+    width: 100px;
+}
+
+.player .cards {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Posiciones */
+.top { top: 20px; left: 50%; transform: translateX(-50%); }
+.bottom { bottom: 20px; left: 50%; transform: translateX(-50%); }
+.left { left: 20px; top: 50%; transform: translateY(-50%); }
+.right { right: 20px; top: 50%; transform: translateY(-50%); }
+
+/* Cuando hay 2 jugadores arriba/abajo */
+.top-left { top: 40px; left: 150px; }
+.top-right { top: 40px; right: 150px; }
+.bottom-left { bottom: 40px; left: 150px; }
+.bottom-right { bottom: 40px; right: 150px; }
