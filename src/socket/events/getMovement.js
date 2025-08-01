@@ -33,12 +33,11 @@ export function hendleGetMovement(socket, io) {
         const to = player.square;
 
         // le avisamos al cliente para mover la ficha
-        room.players.forEach(() => {
-            io.to(roomCode).emit("game:movePiece", {
-                playerNumber: player.number,
-                from,
-                to
-            })
+        io.to(roomCode).emit("game:movePiece", {
+            playerNumber: player.number,
+            from,
+            to,
+            id: player.id
         })
     })
 }

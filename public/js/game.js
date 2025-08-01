@@ -128,8 +128,10 @@ initializeSocket({
         
     },
 
-    onMovePiece: ( playerNumber, from, to ) => {
-        movePiece(playerNumber, from, to, roomCode)
+    onMovePiece: ( playerNumber, from, to, id ) => {
+        console.log(`ID: ${id}`)
+        console.log(`SOCKET.ID: ${socket.id} `)
+        movePiece(playerNumber, from, to, id, socket.id, roomCode)
     },
 
     onReturnQuestion: ( question, options, id ) => {

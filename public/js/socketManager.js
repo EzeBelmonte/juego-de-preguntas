@@ -1,7 +1,12 @@
 let socket
+let socketInitialized = false 
 
 export function initializeSocket(handlers = {}) {
+    if (socketInitialized) return
+    socketInitialized = true
+
     socket = io()
+
     if (handlers.onSystemError) {
         socket.on("systemError", ( data ) => {
             const { type, message } = data
@@ -60,8 +65,9 @@ export function initializeSocket(handlers = {}) {
 
     if (handlers.onMovePiece) {
         socket.on("game:movePiece", ( data ) => {
-            const { playerNumber, from, to } = data
-            handlers.onMovePiece( playerNumber, from, to )
+            const { playerNumber, from, to, id } = data
+            console.log("Recibido evento game:movePiece ---- ACA");
+            handlers.onMovePiece( playerNumber, from, to, id )
         })
     }
 

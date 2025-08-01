@@ -3,6 +3,7 @@ import { validateAnswer } from "../functions/validateAnswer.js";
 
 export function handleGetQuestion(socket, io) {
     socket.on('game:getQuestion', ({ roomCode }) => {
+        console.log("entre a buscar la pregunta")
         // Buscar la room con el mismo código
         const room = findRoomByCode(roomCode)
         if (!room) {
@@ -39,19 +40,20 @@ export function handleGetQuestion(socket, io) {
         if (pregunta) {
             pregunta.available = false
 
+            console.log(pregunta)
             // Se asigna a la sala
             room.question = pregunta
         }
 
         // Se muestra la pregunta y las opciones a todos los jugadores
-        room.players.forEach(() => {
+        //room.players.forEach(() => {
             io.to(roomCode).emit("game:returnQuestion", {
                 question: room.question.question,
                 options: room.question.options,
                 id: player.id
             })
-        })
-
+        //})
+        console.log(player.id)
         // Iniciar cronómetro con tiempo de 10 segundos
         if (!room.timer) {
 

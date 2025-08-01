@@ -152,7 +152,7 @@ const recorrido = [
         49, 50, 51, 52, 53, 54, "final"
     ];
 
-export function movePiece(playerNumber, from, to, roomCode) {
+export function movePiece(playerNumber, from, to, id, youId, roomCode) {
     const ficha = document.getElementById(`ficha-jugador-${playerNumber}`);
     if (!ficha) return;
 
@@ -173,8 +173,11 @@ export function movePiece(playerNumber, from, to, roomCode) {
 
     const steps = () => {
         // cuando se llega al destino, se muestra la pregunta y se sale
-        if (i >= pasos.length) { 
-            emits.emitGetQuestion( roomCode );
+        if (i >= pasos.length) {
+            if (youId === id) {
+                console.log("Entre una sola vez")
+                emits.emitGetQuestion( roomCode );
+            }
             return;
         }
 

@@ -14,7 +14,7 @@ export function handleReadyToRestart(socket, io) {
         }
 
         if (room.playersReady.length === 2) {
-            room.players.forEach(p => {
+            //room.players.forEach(p => {
                 const rival = room.players.find(r => r.id !== p.id)
                 io.to(roomCode).emit("game:init", {
                     rival,
@@ -24,7 +24,7 @@ export function handleReadyToRestart(socket, io) {
                 if (room.host === p.id) {
                     io.to(p.id).emit("game:host")
                 }
-            })
+            //})
         }
     })
 }
