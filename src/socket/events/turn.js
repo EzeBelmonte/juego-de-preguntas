@@ -22,7 +22,7 @@ export function handleTurn (socket, io) {
         }
 
         // se genera un número aleatorio para el dado
-        const number = 3//Math.floor(Math.random() * 6) + 1
+        const number = Math.floor(Math.random() * 6) + 1
         // guardamos el número para la pregunta
         room.numberDie = number
         player.square += number
