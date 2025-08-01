@@ -57,16 +57,16 @@ export function joinRoom(nickname, currentCode) {
 
 // Renderizamos jugadores en las posiciones según la cantidad
 export function renderPlayers(rival, you) {
-    const jugador1 = document.getElementById("jugador1");
+    const jugador1 = document.getElementById(`jugador${you.number}`);
     jugador1.innerHTML = `
-        <div id="card-1" class="jugador-n"><p>${you.nickname}</p></div>
+        <div id="card-${you.number}" class="jugador-n"><p>${you.nickname}</p></div>
         <div class="jugador-p"><p>${you.points}</p></div>
     `;
 
-    const jugador2 = document.getElementById("jugador2");
+    const jugador2 = document.getElementById(`jugador${rival.number}`);
     jugador2.innerHTML = `
-        <div class="jugador-p"><p>${rival.nickname}</p></div>
-        <div id="card-2" class="jugador-n"><p>${rival.points}</p></div> 
+        <div class="jugador-p"><p>${rival.points}</p></div>
+        <div id="card-${rival.number}" class="jugador-n"><p>${rival.nickname}</p></div> 
     `;
 
 }

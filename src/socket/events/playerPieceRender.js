@@ -14,7 +14,10 @@ export function handlePlayerPieceRender(socket, io) {
         }
 
         if (room.playerRenderPiece.length === 2) {
-            io.to(roomCode).emit("game:start")
+            room.players.forEach(() => {
+                io.to(roomCode).emit("game:start")
+            })
+            
         }
     })
 }

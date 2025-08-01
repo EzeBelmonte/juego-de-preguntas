@@ -1,6 +1,6 @@
 import { findRoomByCode } from "../functions/room.js"
 
-export function handleReconnect(socket) {
+export function handleReconnect(socket, io) {
     // Cuando el jugador se conecta desde game.html
     socket.on("game:reconnect", ({ roomCode, playerId }) => {
 
@@ -27,7 +27,8 @@ export function handleReconnect(socket) {
         
         // Obtenemos al rival
         const oponent = room.players.find(p => p.id !== socket.id)
-        socket.emit("game:init", {
+        //socket.emit("game:init", {
+        io.to(roomCode).emit("game:init", {
             rival: oponent,
             you: player
         })

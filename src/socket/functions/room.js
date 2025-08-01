@@ -10,6 +10,7 @@ export async function createRoom(code, hostSocketId, nickname) {
         players: [{
             id: hostSocketId,
             nickname,
+            number: 0,
             points: 0,
             square: 0
         }],

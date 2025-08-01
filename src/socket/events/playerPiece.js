@@ -10,8 +10,7 @@ export function handlePlayerPiece(socket, io) {
             return socket.emit("game:error", "Sala no encontrada")
         }
 
-        room.players.forEach((p, i) => {
-            p.number = i
+        room.players.forEach(p => {
             io.to(roomCode).emit("game:createPiece", { 
                 playerNumber: p.number,
                 position: p.square

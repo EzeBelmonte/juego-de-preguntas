@@ -1,9 +1,9 @@
 let socket
-let socketInitialized = false 
+//let socketInitialized = false 
 
 export function initializeSocket(handlers = {}) {
-    if (socketInitialized) return
-    socketInitialized = true
+    //if (socketInitialized) return
+    //socketInitialized = true
 
     socket = io()
 

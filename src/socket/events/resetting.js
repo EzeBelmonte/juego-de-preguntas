@@ -23,6 +23,13 @@ export function handleResetting( socket, io ) {
             room.playerFinished = []
             room.playersReady = []
 
+            room.questionSquare.forEach(grupo => {
+                grupo.forEach(pregunta => {
+                    pregunta.available = true
+                })
+            })
+
+
             room.players.forEach(p => {
                 io.to(p.id).emit("game:reset")
             })

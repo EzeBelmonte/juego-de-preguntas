@@ -27,8 +27,13 @@ export function validateAnswer(room, option, id, io) {
         })
     //})
 
-    const you = room.players.find(p => p.id === id)
+    room.players.forEach(p => {
+        const you = p
+        const rival = room.players.find(other => other.id !== p.id)
+        io.to(p.id).emit("game:init", { you, rival })
+    })
+    /*const you = room.players.find(p => p.id === id)
     const oponente = room.players.find(p => p.id !== id)
     // Actualizamos los puntajes en ambos clientes
-    io.to(room.code).emit("game:init", { rival: oponente, you });
+    io.to(room.code).emit("game:init", { rival: oponente, you });*/
 }

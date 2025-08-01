@@ -23,6 +23,7 @@ export function addPlayerToRoom(room, socketId, nickname) {
     room.players.push({
         id: socketId,
         nickname,
+        number: 1,
         points: 0,
         square: 0
     })
